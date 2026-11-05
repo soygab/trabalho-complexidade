@@ -203,11 +203,11 @@ def menu_ordenar():
 def main():
     while True:
         print("\n===== MENU PRINCIPAL =====")
-        print("1 - PILHA")
-        print("2 - FILA")
-        print("3 - FILA CIRCULAR")
-        print("4 - ORDENAR")
-        print("5 - SAIR")
+        print("1 - Pilha")
+        print("2 - Fila")
+        print("3 - Fila Circular")
+        print("4 - Ordenar")
+        print("5 - Sair")
         op = ler_int("Opção: ")
         if op == 1:
             menu_estrutura("pilha")
